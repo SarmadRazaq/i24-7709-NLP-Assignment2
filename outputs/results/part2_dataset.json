@@ -1,0 +1,145 @@
+{
+  "topic": {
+    "train": {
+      "Sports": 88,
+      "International": 88,
+      "Health & Society": 87,
+      "Politics": 87
+    },
+    "val": {
+      "Health & Society": 19,
+      "Sports": 19,
+      "Politics": 19,
+      "International": 18
+    },
+    "test": {
+      "International": 19,
+      "Health & Society": 19,
+      "Politics": 19,
+      "Sports": 18
+    }
+  },
+  "pos": {
+    "train": {
+      "PRON": 440,
+      "ADJ": 389,
+      "POST": 1702,
+      "NOUN": 2753,
+      "VERB": 1351,
+      "CONJ": 373,
+      "DET": 320,
+      "ADV": 152,
+      "PRT": 158,
+      "NUM": 119
+    },
+    "val": {
+      "NOUN": 711,
+      "POST": 422,
+      "DET": 69,
+      "ADJ": 89,
+      "VERB": 287,
+      "CONJ": 89,
+      "PRON": 81,
+      "ADV": 27,
+      "NUM": 26,
+      "PRT": 36,
+      "UNK": 1
+    },
+    "test": {
+      "PRON": 105,
+      "NOUN": 576,
+      "POST": 372,
+      "ADJ": 87,
+      "CONJ": 83,
+      "VERB": 277,
+      "PRT": 31,
+      "DET": 60,
+      "ADV": 43,
+      "NUM": 24
+    }
+  },
+  "ner": {
+    "train": {
+      "O": 7362,
+      "B-LOC": 136,
+      "B-PER": 77,
+      "I-PER": 57,
+      "B-ORG": 26,
+      "I-ORG": 25,
+      "I-LOC": 22,
+      "B-MISC": 42,
+      "I-MISC": 10
+    },
+    "val": {
+      "O": 1709,
+      "B-PER": 24,
+      "I-PER": 27,
+      "B-LOC": 41,
+      "B-MISC": 7,
+      "I-MISC": 1,
+      "B-ORG": 9,
+      "I-LOC": 6,
+      "I-ORG": 14
+    },
+    "test": {
+      "O": 1599,
+      "B-LOC": 26,
+      "B-ORG": 2,
+      "B-MISC": 5,
+      "I-MISC": 1,
+      "B-PER": 14,
+      "I-PER": 9,
+      "I-LOC": 1,
+      "I-ORG": 1
+    }
+  },
+  "ner_entities": {
+    "train": {
+      "LOC": 136,
+      "PER": 77,
+      "ORG": 26,
+      "MISC": 42
+    },
+    "val": {
+      "PER": 24,
+      "LOC": 41,
+      "MISC": 7,
+      "ORG": 9
+    },
+    "test": {
+      "LOC": 26,
+      "ORG": 2,
+      "MISC": 5,
+      "PER": 14
+    }
+  },
+  "sizes": {
+    "train": 350,
+    "val": 75,
+    "test": 75
+  },
+  "tokens": {
+    "train": 7757,
+    "val": 1838,
+    "test": 1658
+  },
+  "lexicon_sizes": {
+    "POST": 54,
+    "PRON": 54,
+    "CONJ": 28,
+    "PRT": 11,
+    "DET": 31,
+    "NUM": 51,
+    "VERB": 330,
+    "ADV": 266,
+    "ADJ": 235,
+    "NOUN": 288
+  },
+  "gazetteer_sizes": {
+    "MISC": 55,
+    "LOC": 124,
+    "ORG": 85,
+    "PER": 173,
+    "PER_PK": 111
+  }
+}
