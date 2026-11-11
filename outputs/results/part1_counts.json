@@ -526,13 +526,13 @@
   },
   "tsne_category_counts": {
     "Function word": 67,
-    "Verb / auxiliary": 53,
+    "Verb / auxiliary": 52,
     "Time & number": 8,
     "Geography": 2,
     "Sports": 10,
     "Politics & state": 4,
     "World & economy": 4,
-    "Society & media": 7,
+    "Society & media": 8,
     "Other": 45
   }
 }

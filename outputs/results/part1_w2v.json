@@ -4,19 +4,19 @@
       "pairs_per_epoch": 1635449,
       "steps_per_epoch": 1598,
       "subsample_t": 0.0001,
-      "train_seconds": 294.1
+      "train_seconds": 270.0
     },
     "C2": {
       "pairs_per_epoch": 1892755,
       "steps_per_epoch": 1849,
       "subsample_t": 0.0001,
-      "train_seconds": 322.7
+      "train_seconds": 321.9
     },
     "C4": {
       "pairs_per_epoch": 1635449,
       "steps_per_epoch": 1598,
       "subsample_t": 0.0001,
-      "train_seconds": 541.4
+      "train_seconds": 552.2
     }
   },
   "loss_log": {
